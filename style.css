@@ -1,6 +1,22 @@
 body {
     background-color: #95a5ff;
+    background-image: url(/images/background2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
+
+h1 {
+    text-align: center;
+    text-shadow: 3px 3px 5px red, 3px 3px 5px blue;
+}
+
+#GMX {
+    color: blue;
+    text-shadow: 3px 3px 5px red, 3px 3px 5px blue;
+    text-align: center;
+
+}
+
 
 h2 {
     background-color: tomato;
@@ -8,37 +24,59 @@ h2 {
     border-width: 3px;
     border-color: #5f0000;
     border-radius: 10px;
+    height: auto;
+    width: 450px;
+    text-align: center;
+    margin-left: 2%;
 
 }
 
 #pSongs {
-    color: blueviolet;
+    color: rgba(85, 10, 156, 0.959);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #pReflexion1 {
     color: yellowgreen;
     border-bottom: 0.5px solid #13ce42;
+
 }
 
 #pYouTube {
     color: chocolate;
     border-top: 1px solid rebeccapurple;
     border-left: 3px solid rebeccapurple;
-    border-right:1px solid rebeccapurple ;
+    border-right: 1px solid rebeccapurple;
     border-bottom: 3px solid rebeccapurple;
 }
 
 .intro {
+    text-shadow: 1px 1px 1px red, 1px 1px 1px blue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .pDescSongs {
-    color: #5f0000;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    color: #001747;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid;
+    height: auto;
+    width: 1000px;
 }
 
 .pMovies {
-    color: rgb(165, 7, 39);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    color: rgb(59, 112, 9);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid;
+    height: auto;
+    width: 1000px;
+
+}
+
+.imgSongs {
+
+    height: 220px;
+    width: 220px;
+    box-shadow: 3px 3px 3px #13ce42;
+    margin: 40px;
+
 }
