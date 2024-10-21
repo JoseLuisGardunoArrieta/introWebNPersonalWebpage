@@ -1,6 +1,21 @@
 body {
-    background-color: #666666;
+    background-color: #95a5ff;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h2 {
-    background-color: rgb(146, 146, 146);
+    background-color: tomato; 
+}
+#pSongs{
+    color: blueviolet;
+}
+#pReflexion1{
+    color: yellowgreen;
+}
+#pYouTube{
+    color: chocolate;
+}
+.pDescSongs{
+color: #5f0000;
+}
+.pMovies{
+color: crimson; 
 }
